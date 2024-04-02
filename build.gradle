@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    implementation 'org.apache.maven.resolver:maven-resolver-connector-basic:[1.9,)!!1.9.11'
+}
+
+repositories {
+    mavenCentral()
+}
